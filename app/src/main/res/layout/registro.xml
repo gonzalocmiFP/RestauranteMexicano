@@ -7,7 +7,7 @@
     android:background="@color/red">
 
     <EditText
-        android:id="@+id/emailRegistro"
+        android:id="@+id/correoRegistro"
         android:layout_width="250dp"
         android:layout_height="60dp"
         android:background="@color/white"
@@ -99,7 +99,7 @@
         android:layout_height="60dp"
         android:background="@color/white"
         android:ems="10"
-        android:hint="Contraseña"
+        android:hint="Repetir contraseña"
         android:textAlignment="center"
         android:textColorHint="@color/black"
         android:inputType="numberPassword"

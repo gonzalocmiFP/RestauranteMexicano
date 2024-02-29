@@ -16,9 +16,10 @@ public class SplashScreen extends AppCompatActivity {
         setContentView(R.layout.splash_screen);
         getWindow().setStatusBarColor(ContextCompat.getColor(this, R.color.red));
 
+        ImageView logo = findViewById(R.id.logoRestaurante);
+
         openLogin();
 
-        ImageView logo = findViewById(R.id.logoRestaurante);
     }
 
     public void openLogin(){

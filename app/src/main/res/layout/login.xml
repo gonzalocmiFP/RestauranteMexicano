@@ -37,7 +37,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="192dp" />
+        app:layout_constraintGuide_begin="186dp" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline4"
@@ -107,10 +107,10 @@
         app:layout_constraintGuide_begin="674dp" />
 
     <Button
-        android:id="@+id/botonConfirmar"
+        android:id="@+id/botonIniciarSesion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="CONFIRMAR"
+        android:text="INICIAR"
         android:backgroundTint="@color/white"
         android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/guideline8"
