@@ -55,10 +55,7 @@ public class Login extends AppCompatActivity {
         String contrasena = etContrasena.getText().toString();
 
         if (usuario.isEmpty() || contrasena.isEmpty()){
-            Toast t = new Toast(this);
-            t.setText("Rellena todos los campos para continuar");
-            t.setDuration(Toast.LENGTH_SHORT);
-            t.show();
+            Toast.makeText(Login.this, "Rellena todos los campos para continuar", Toast.LENGTH_SHORT).show();
             return false;
         }
 

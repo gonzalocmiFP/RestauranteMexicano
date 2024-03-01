@@ -50,17 +50,11 @@ public class Registro extends AppCompatActivity {
         String contrasena2 = etContrasena2.getText().toString();
 
         if (usuario.isEmpty() || correoElectronico.isEmpty() || contrasena.isEmpty() || contrasena2.isEmpty()){
-            Toast t = new Toast(this);
-            t.setText("Rellena todos los campos para continuar");
-            t.setDuration(Toast.LENGTH_SHORT);
-            t.show();
+            Toast.makeText(Registro.this, "Rellena todos los campos para continuar", Toast.LENGTH_SHORT).show();
             return false;
         }
         else if (!contrasena.equals(contrasena2)) {
-            Toast t = new Toast(this);
-            t.setText("Las contraseñas deben ser iguales");
-            t.setDuration(Toast.LENGTH_SHORT);
-            t.show();
+            Toast.makeText(Registro.this, "Las contraseñas deben ser iguales", Toast.LENGTH_SHORT).show();
             return false;
         }
 
